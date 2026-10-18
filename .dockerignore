@@ -1,0 +1,33 @@
+# Version control
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Generated at build time inside the image
+model/
+data/
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Misc
+.env
+*.log
+README.md
+key.pem
