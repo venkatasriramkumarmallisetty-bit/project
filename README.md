@@ -38,7 +38,7 @@ docker build -t marks-predictor .
 docker run -p 5000:5000 marks-predictor
 ```
 
-Then open http://localhost:5000.
+Then open http://localhost:5000/
 
 ## API
 
